@@ -1,0 +1,21 @@
+{
+  "id": "302af74c28dd7e2f",
+  "filePath": "/home/penascalf5/Escritorio/trabajos/Investigación-Vue/Investigacion-VUE/src/views/InvestigacionReactividad.vue",
+  "timestamp": 1769516686484,
+  "originalContent": "",
+  "toolName": "auto-backup",
+  "toolInput": {
+    "file_path": "Investigacion-VUE/src/views/InvestigacionReactividad.vue",
+    "trigger": "local-change"
+  },
+  "metadata": {
+    "lineCount": 1,
+    "characterCount": 0,
+    "fileSize": 0,
+    "language": "plaintext",
+    "mimeType": "text/plain",
+    "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "backupType": "auto-local-change",
+  "checkpointLabel": "File created: InvestigacionReactividad.vue"
+}

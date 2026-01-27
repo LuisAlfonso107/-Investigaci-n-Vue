@@ -1,0 +1,21 @@
+{
+  "id": "00a9225e92a55d78",
+  "filePath": "/home/penascalf5/Escritorio/trabajos/Investigación-Vue/explicacionvue.md",
+  "timestamp": 1769506086784,
+  "originalContent": "",
+  "toolName": "auto-backup",
+  "toolInput": {
+    "file_path": "explicacionvue.md",
+    "trigger": "local-change"
+  },
+  "metadata": {
+    "lineCount": 1,
+    "characterCount": 0,
+    "fileSize": 0,
+    "language": "markdown",
+    "mimeType": "text/plain",
+    "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "backupType": "auto-local-change",
+  "checkpointLabel": "File created: explicacionvue.md"
+}

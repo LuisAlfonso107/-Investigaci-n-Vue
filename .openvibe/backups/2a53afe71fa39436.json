@@ -1,0 +1,21 @@
+{
+  "id": "2a53afe71fa39436",
+  "filePath": "/home/penascalf5/Escritorio/trabajos/Investigación-Vue/Investigacion-VUE/src/views/HomeView.vue",
+  "timestamp": 1769516968422,
+  "originalContent": "<script setup lang=\"ts\">\nimport TheWelcome from '../components/TheWelcome.vue'\n</script>\n\n<template>\n  <main>\n    <TheWelcome />\n    <RouterLink to=\"/investigacion-reactiva\">Ver Investigación: Reactividad en Vue 3</RouterLink>\n  </main>\n</template>\n",
+  "toolName": "auto-backup",
+  "toolInput": {
+    "file_path": "Investigacion-VUE/src/views/HomeView.vue",
+    "trigger": "local-change"
+  },
+  "metadata": {
+    "lineCount": 11,
+    "characterCount": 249,
+    "fileSize": 250,
+    "language": "plaintext",
+    "mimeType": "text/plain",
+    "contentHash": "3551565749c810a0b46489ca9e515432294382a8c29da287d9b2106f71b69d62"
+  },
+  "backupType": "auto-local-change",
+  "checkpointLabel": "File modified: HomeView.vue"
+}
