@@ -85,3 +85,4 @@ Componentes reutilizables de Vue.
 
 ## Evaluación
 Este proyecto es un excelente punto de partida para desarrollar aplicaciones Vue modernas. Está bien configurado con las últimas versiones de las herramientas, incluye pruebas automatizadas y sigue las mejores prácticas de desarrollo. Es ideal para investigación y aprendizaje de Vue.js, ya que incluye ejemplos de componentes, routing, state management y testing.
+
