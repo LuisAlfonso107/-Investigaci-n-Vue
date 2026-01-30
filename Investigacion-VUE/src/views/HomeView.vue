@@ -5,11 +5,44 @@ import TheWelcome from '../components/TheWelcome.vue'
 <template>
   <main class="home">
     <TheWelcome />
+
+
+
+
+
     <div class="cta-section">
       <RouterLink to="/investigacion-reactiva" class="cta-button">
         Ver Investigación: Reactividad en Vue 3
       </RouterLink>
-    </div>
+    </div> 
+
+
+
+
+    <div class="cta-section">
+      <RouterLink to="/investigacion-reactiva" class="cta-button">
+        Ver Investigación: Reactividad en Vue 3
+      </RouterLink>
+    </div> 
+
+    <div class="cta-section">
+      <RouterLink to="/investigacion-reactiva" class="cta-button">
+        Ver Investigación: Reactividad en Vue 3
+      </RouterLink>
+    </div> 
+<div class="cta-section">
+      <RouterLink to="/investigacion-reactiva" class="cta-button">
+        Ver Investigación: Reactividad en Vue 3
+      </RouterLink>
+    </div> 
+<div class="cta-section">
+      <RouterLink to="/investigacion-reactiva" class="cta-button">
+        Ver Investigación: Reactividad en Vue 3
+      </RouterLink>
+    </div> 
+
+
+
   </main>
 </template>
 
