@@ -20,7 +20,7 @@ const { name, price, discount } = toRefs(product)
 const apiLargeData = shallowRef<{ items: string[]; total: number } | null>(null)
 const loadLargeData = () => {
   apiLargeData.value = {
-    items: Array(5000).fill('').map((_, i) => `Registro #${i + 1}`),
+    items: Array(5000).fill('').map((_,  i) => `Registro #${i + 1}`),
     total: 12500
   }
 }
