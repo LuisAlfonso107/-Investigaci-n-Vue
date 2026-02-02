@@ -6,15 +6,15 @@ import { ref, reactive, toRefs, computed, watch, watchEffect, shallowRef, provid
 const globalTheme = ref<'light' | 'dark'>('light')
 provide('theme', globalTheme)
 
-// ── 1. ref + reactive + toRefs ──
+// ── 1. ref + reactive + toRefs ──--
 const counter = ref(0)
 const product = reactive({
   name: 'Monitor 27"',
-  price: 249,
+  price: 249, 
   stock: 15,
   discount: 0.10
 })
-const { name, price, discount } = toRefs(product)
+const { name, price, discount } = toRefs(product)           //desestructurar un objeto reactivo sin perder la reactividad de sus propiedades.
 
 // ── 2. shallowRef ──
 const apiLargeData = shallowRef<{ items: string[]; total: number } | null>(null)
