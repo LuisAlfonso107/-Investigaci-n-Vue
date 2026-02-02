@@ -70,7 +70,6 @@ Componentes reutilizables de Vue.
 - **counter.ts**: Store de Pinia para manejo de estado del contador.
 
 
-
 #### Directorio src/views/
 - **AboutView.vue**: Vista de la página "Acerca de".
 - **HomeView.vue**: Vista de la página principal.
