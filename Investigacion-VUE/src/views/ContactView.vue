@@ -5,10 +5,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'ContactView'
-}
+<script setup lang="ts">
+// Componente de Contacto simple
 </script>
 
 <style scoped>
