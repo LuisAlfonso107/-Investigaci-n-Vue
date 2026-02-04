@@ -9,12 +9,13 @@ import HelloWorld from './components/HelloWorld.vue'
       <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
       <div class="wrapper">
-        <HelloWorld msg="You did it!" />
+        <HelloWorld msg="ReacTiVue" />
 
         <nav>
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/investigacion-reactiva">Investigación Reactividad</RouterLink>
+          <router-link to="/contact">Ejemplo</router-link>
         </nav>
       </div>
     </header>
@@ -25,8 +26,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
+  background: rgb(204, 202, 203);
   line-height: 1.5;
   max-height: 100vh;
+  text-align: center;
 }
 
 .logo {
@@ -36,13 +39,14 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   margin-top: 2rem;
 }
 
 nav a.router-link-exact-active {
   color: var(--color-text);
+  font-weight: 600;
 }
 
 nav a.router-link-exact-active:hover {
@@ -51,19 +55,27 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0.75rem 1.5rem;
   border-left: 1px solid var(--color-border);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background-color: var(--color-background-soft);
+  transform: translateY(-1px);
 }
 
 nav a:first-of-type {
   border: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   header {
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
   }
 
   .logo {
@@ -72,17 +84,42 @@ nav a:first-of-type {
 
   header .wrapper {
     display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
   }
 
   nav {
-    text-align: left;
-    margin-left: -1rem;
+    text-align: right;
+    margin: 0;
     font-size: 1rem;
+    padding: 0;
+  }
+}
 
-    padding: 1rem 0;
-    margin-top: 1rem;
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  nav {
+    text-align: right;
+    margin: 0;
+    font-size: 1rem;
+    padding: 0;
   }
 }
 </style>
