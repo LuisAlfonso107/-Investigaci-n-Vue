@@ -22,18 +22,18 @@ defineProps<{
 .brand-title {
   font-weight: 800;
   font-size: clamp(1.8rem, 4vw, 2.8rem);
-  background: linear-gradient(135deg, #f59e0b 0%, #dc2626 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 0.5rem;
-  text-shadow: 0 2px 10px rgba(245, 158, 11, 0.1);
+  text-shadow: 0 2px 10px rgba(102, 126, 234, 0.1);
   animation: glow 3s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
-  from { filter: drop-shadow(0 0 5px rgba(245, 158, 11, 0.3)); }
-  to { filter: drop-shadow(0 0 20px rgba(220, 38, 38, 0.5)); }
+  from { filter: drop-shadow(0 0 5px rgba(102, 126, 234, 0.3)); }
+  to { filter: drop-shadow(0 0 20px rgba(118, 75, 162, 0.5)); }
 }
 
 .brand-subtitle {
@@ -45,8 +45,8 @@ defineProps<{
 
 .highlight {
   font-weight: 700;
-  color: #10b981;
-  text-shadow: 0 2px 5px rgba(16, 185, 129, 0.3);
+  color: #fbbf24;
+  text-shadow: 0 2px 5px rgba(251, 191, 36, 0.3);
   position: relative;
 }
 
@@ -57,7 +57,7 @@ defineProps<{
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #10b981, transparent);
+  background: linear-gradient(90deg, transparent, #fbbf24, transparent);
   animation: shimmer 2s ease-in-out infinite;
 }
 

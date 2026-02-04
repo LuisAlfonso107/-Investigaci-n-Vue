@@ -57,7 +57,7 @@ defineProps<{
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #10b981, transparent);
+  background: linear-gradient(90deg, transparent, #fbbf24, transparent);
   animation: shimmer 2s ease-in-out infinite;
 }
 

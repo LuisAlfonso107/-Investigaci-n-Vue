@@ -1,24 +1,24 @@
+<script setup lang="ts">
+import NavegationMovie from '../components/NavegationMovie.vue';
+</script>
+
 <template>
-  <div class="contact">
+  <div class="router-page">
     <div class="container">
-      <h1>API Demo</h1>
+      <h1>Router Demo</h1>
       <p class="description">
-        Explore different Vue API patterns and implementations
+        Explore Vue Router navigation and view components
       </p>
       
-      <div class="api-section">
-        <OptionApi />
+      <div class="navigation-section">
+        <NavegationMovie />
       </div>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-import OptionApi from '../components/OptionApi.vue';
-</script>
-
 <style scoped>
-.contact {
+.router-page {
   min-height: 100vh;
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   padding: 2rem 1rem;
@@ -48,7 +48,7 @@ h1 {
   line-height: 1.6;
 }
 
-.api-section {
+.navigation-section {
   background: white;
   border-radius: 20px;
   padding: 3rem;
@@ -57,23 +57,23 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  .contact {
+  .router-page {
     padding: 1rem;
   }
   
-  .api-section {
+  .navigation-section {
     padding: 2rem 1rem;
   }
 }
 
 @media (min-width: 768px) {
-  .contact {
+  .router-page {
     padding: 3rem 2rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .contact {
+  .router-page {
     padding: 4rem 2rem;
   }
 }

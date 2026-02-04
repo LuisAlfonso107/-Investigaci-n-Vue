@@ -45,8 +45,8 @@ defineProps<{
 
 .highlight {
   font-weight: 700;
-  color: #10b981;
-  text-shadow: 0 2px 5px rgba(16, 185, 129, 0.3);
+  color: #fbbf24;
+  text-shadow: 0 2px 5px rgba(251, 191, 36, 0.3);
   position: relative;
 }
 
@@ -57,7 +57,7 @@ defineProps<{
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #10b981, transparent);
+  background: linear-gradient(90deg, transparent, #fbbf24, transparent);
   animation: shimmer 2s ease-in-out infinite;
 }
 
