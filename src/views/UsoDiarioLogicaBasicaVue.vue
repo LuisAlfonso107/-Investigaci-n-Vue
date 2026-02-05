@@ -96,30 +96,11 @@ const handleClick = () => {
           </div>
         </div>
         
-        <div class="topic">
-          <h3>🎯 Provide / Inject</h3>
-          <p>Compartir datos a través de múltiples niveles de componentes</p>
-          <div class="example">
-            <h4>Ejemplo:</h4>
-            <pre><code>// Componente padre
-&lt;script setup&gt;
-import { provide } from 'vue'
-
-const theme = ref('dark')
-provide('theme', theme)
-&lt;/script&gt;
-
-// Componente descendiente
-&lt;script setup&gt;
-import { inject } from 'vue'
-
-const theme = inject('theme')
-&lt;/script&gt;</code></pre>
-          </div>
+       
         </div>
       </div>
     </div>
-  </div>
+
 </template>
 
 <script setup lang="ts">
