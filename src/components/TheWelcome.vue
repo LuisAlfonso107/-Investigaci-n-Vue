@@ -10,7 +10,7 @@ const testItems: TestItem[] = [
   {
     title: 'Pruebas Unitarias',
     description: 'Prueba funciones individuales con Vitest.',
-    icon: '⚡',
+    icon: '',
     example: `import { describe, it, expect } from 'vitest'
 import { sumar } from './utils'
 
@@ -23,7 +23,7 @@ describe('sumar', () => {
   {
     title: 'Pruebas de Componentes',
     description: 'Prueba componentes Vue con Vue Test Utils.',
-    icon: '🧩',
+    icon: '',
     example: `import { mount } from '@vue/test-utils'
 import Boton from './Boton.vue'
 
@@ -37,7 +37,7 @@ it('renderiza texto', () => {
   {
     title: 'Mock de APIs',
     description: 'Simula llamadas a API para pruebas.',
-    icon: '🎭',
+    icon: '',
     example: `import { vi } from 'vitest'
 import axios from 'axios'
 
@@ -47,7 +47,7 @@ axios.get.mockResolvedValue({ data: 'ok' })`
   {
     title: 'Pruebas Asíncronas',
     description: 'Prueba promesas y operaciones async.',
-    icon: '⏱️',
+    icon: '',
     example: `it('resuelve con datos', async () => {
   const result = await fetchData()
   expect(result).toBeDefined()
@@ -56,7 +56,7 @@ axios.get.mockResolvedValue({ data: 'ok' })`
   {
     title: 'Snapshots',
     description: 'Captura estado actual del componente.',
-    icon: '📸',
+    icon: '',
     example: `it('coincide con snapshot', () => {
   const wrapper = mount(Component)
   expect(wrapper.html()).toMatchSnapshot()
@@ -65,7 +65,7 @@ axios.get.mockResolvedValue({ data: 'ok' })`
   {
     title: 'Manejo de Errores',
     description: 'Prueba casos de error y excepciones.',
-    icon: '⚠️',
+    icon: '',
     example: `it('lanza error', () => {
   expect(() => validar(null))
     .toThrow('Datos inválidos')
