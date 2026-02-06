@@ -8,7 +8,20 @@ import TheWelcome from '../components/TheWelcome.vue';
 
    
 
-   
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Reactividad</h3>
+        <p>Sistema de reactividad automático y eficiente</p>
+      </div>
+      <div class="feature-card">
+        <h3>Composition API</h3>
+        <p>API más flexible y reutilizable</p>
+      </div>
+      <div class="feature-card">
+        <h3>TypeScript</h3>
+        <p>Soporte nativo para TypeScript</p>
+      </div>
+    </div>
   </main>
 </template>
 

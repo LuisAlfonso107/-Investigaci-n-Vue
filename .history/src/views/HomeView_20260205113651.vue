@@ -6,9 +6,30 @@ import TheWelcome from '../components/TheWelcome.vue';
   <main class="home">
     <TheWelcome />
 
-   
+    <div class="hero-section">
+      <div class="hero-content">
+        <h2>Explora Vue 3</h2>
+        <p>Descubre la reactividad moderna y las características avanzadas de Vue 3</p>
+        <RouterLink to="/investigacion-reactiva" class="cta-button">
+          Ver Investigación: Reactividad en Vue 3
+        </RouterLink>
+      </div>
+    </div>
 
-   
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Reactividad</h3>
+        <p>Sistema de reactividad automático y eficiente</p>
+      </div>
+      <div class="feature-card">
+        <h3>Composition API</h3>
+        <p>API más flexible y reutilizable</p>
+      </div>
+      <div class="feature-card">
+        <h3>TypeScript</h3>
+        <p>Soporte nativo para TypeScript</p>
+      </div>
+    </div>
   </main>
 </template>
 
