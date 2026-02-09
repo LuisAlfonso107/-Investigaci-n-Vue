@@ -6,7 +6,7 @@
       
       <div class="topics">
         <div class="topic">
-          <h3>📦 Importación y exportaciones de librerías y archivos</h3>
+          <h3>Importación y exportaciones de librerías y archivos</h3>
           <p>Gestión de módulos, componentes y dependencias en proyectos Vue</p>
           <div class="example">
             <h4>Ejemplo:</h4>
@@ -22,7 +22,7 @@ export default {
         </div>
         
         <div class="topic">
-          <h3>⚡ Directivas (v-if, v-for, v-model, etc.)</h3>
+          <h3> Directivas (v-if, v-for, v-model, etc.)</h3>
           <p>Directivas esenciales de Vue para el manejo del DOM y reactividad</p>
           <div class="example">
             <h4>Ejemplo:</h4>
@@ -40,7 +40,7 @@ export default {
         </div>
         
         <div class="topic">
-          <h3>🧩 Componentes (creación y reutilización)</h3>
+          <h3>Componentes (creación y reutilización)</h3>
           <p>Desarrollo de componentes reutilizables y buenas prácticas</p>
           <div class="example">
             <h4>Ejemplo:</h4>
@@ -61,7 +61,7 @@ defineProps({
         </div>
         
         <div class="topic">
-          <h3>🔄 Comunicación entre componentes y App.vue</h3>
+          <h3>Comunicación entre componentes y App.vue</h3>
           <p>Flujo de datos e interacción entre componentes</p>
           <div class="example">
             <h4>Ejemplo:</h4>
@@ -76,7 +76,7 @@ defineProps({
         </div>
         
         <div class="topic">
-          <h3>📤 Props y Emits</h3>
+          <h3>Props y Emits</h3>
           <p>Paso de datos entre componentes padre e hijo</p>
           <div class="example">
             <h4>Ejemplo:</h4>

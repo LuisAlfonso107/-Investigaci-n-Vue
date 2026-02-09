@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router';
-import HelloWorld from './components/HelloWorld.vue';
+import { RouterLink, RouterView } from "vue-router";
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
@@ -9,14 +9,27 @@ import HelloWorld from './components/HelloWorld.vue';
       <div class="nav-container">
         <RouterLink to="/" class="nav-link">Home</RouterLink>
         <RouterLink to="/about" class="nav-link">Uso Diario Vue</RouterLink>
-        <RouterLink to="/investigacion-reactiva" class="nav-link">Investigación Reactividad</RouterLink>
+        <RouterLink to="/investigacion-reactiva" class="nav-link"
+          >Investigación Reactividad</RouterLink
+        >
         <RouterLink to="/contact" class="nav-link">API</RouterLink>
-        <RouterLink to="/router-view-y-router-link" class="nav-link">RouterView y RouterLink</RouterLink>
+        <RouterLink to="/router-view-y-router-link" class="nav-link"
+          >RouterView y RouterLink</RouterLink
+        >
+        <RouterLink to="/suspense-examples" class="nav-link"
+          >Suspense</RouterLink
+        >
       </div>
     </nav>
 
     <header>
-      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+      <img
+        alt="Vue logo"
+        class="logo"
+        src="@/assets/logo.svg"
+        width="125"
+        height="125"
+      />
 
       <div class="wrapper">
         <HelloWorld msg="ReacTiVue" />
@@ -85,7 +98,7 @@ header {
 }
 
 .nav-link::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -136,7 +149,7 @@ header {
     justify-content: center;
     gap: 0;
   }
-  
+
   .nav-link {
     padding: 0.75rem 1.5rem;
     font-size: 0.95rem;
@@ -152,7 +165,7 @@ header {
     width: 100px;
     height: 100px;
   }
-  
+
   .nav-link {
     padding: 0.75rem 2rem;
     font-size: 1rem;
@@ -164,7 +177,7 @@ header {
     flex-wrap: wrap;
     min-height: auto;
   }
-  
+
   .nav-link {
     padding: 0.5rem 1rem;
     font-size: 0.85rem;
