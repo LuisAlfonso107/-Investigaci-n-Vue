@@ -14,10 +14,10 @@
 
       <div class="component-item">
         <Suspense>
-          <template #default>
+          <template #default> /*Es el componente, dato o recurso que necesita TIEMPO para estar listo */
             <UserStats />
           </template>
-          <template #fallback>
+          <template #fallback> /*Es lo que mostramos MIENTRAS ESPERAMOS a que #default termine.*/
             <div class="mini-loading"> Cargando estadísticas...</div>
           </template>
         </Suspense>

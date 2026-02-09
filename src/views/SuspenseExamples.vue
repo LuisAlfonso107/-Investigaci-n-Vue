@@ -138,7 +138,7 @@
         <li>Carga de imágenes o recursos externos</li>
       </ul>
 
-      <h3>⚡ Ventajas Clave</h3>
+      <h3> Ventajas Clave</h3>
       <ul>
         <li>Mejora la experiencia del usuario</li>
         <li>Evita pantallas en blanco</li>
